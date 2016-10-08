@@ -1,0 +1,199 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Booststrap Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By Akinde Akinshola Samuel
+ * UI|UX ENGINEER @haykins.ml (DEV. CENTER)
+ *
+**/
+
+
+html {
+    margin: 0;
+    padding: 0;
+}
+body { 
+    font-size: 13px;
+    /*font-family: 'Open Sans',sans-serif;*/
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #444;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 15%;
+    background: #F1F1F1;
+    width: 100%;
+}
+
+
+/*
+ * Base structure
+ */
+img{
+    /*border-radius: 2px;
+    box-shadow:0px 0px 5px #E4E4E4;*/
+}
+p { 
+    margin-top: 0; 
+    text-align: margin-left;
+    padding: 0; 
+    margin-bottom: 12px; 
+    /*font-family: "Open Sans" !important; */
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 13px; 
+    line-height: 21px;
+    color: #696E74; 
+}
+
+a, button { 
+	cursor: pointer
+  	padding: 0;
+  	margin: 0;
+  	text-decoration: none; 
+	-webkit-transition: background-color .4s linear, color .4s linear;
+	-moz-transition: background-color .4s linear, color .4s linear;
+	-o-transition: background-color .4s linear, color .4s linear;
+	-ms-transition: background-color .4s linear, color .4s linear;
+	transition: background-color .4s linear, color .4s linear;
+}
+
+a:link { 
+  text-decoration: none;
+  color: #8998ab;
+}
+
+a:visited { 
+  color: #0E5B07;
+}
+
+a:hover, a:focus, a:active { 
+  color: #336699;
+}
+
+a.btn:hover, a.btn:focus, a.btn:active, a.btn:link, a.btn:visited { 
+  color: #ffffff;
+}
+
+hr {
+  border: 1px solid #CFCFCF;
+}
+
+label {
+	color: #29547F;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 700;
+  	letter-spacing: -0.5px;
+ 	font-family: 'Open Sans', sans-serif;
+  	color: #020305;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  text-decoration: none;
+}
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover,
+h1 a:focus,
+h2 a:focus,
+h3 a:focus,
+h4 a:focus,
+h5 a:focus,
+h6 a:focus {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 44px;
+  line-height: 60px;
+}
+h2 {
+  font-size: 38px;
+  line-height: 52.5px;
+}
+h3 {
+  font-size: 32px;
+  line-height: 45px;
+}
+h4 {
+  font-size: 26px;
+  line-height: 37.5px;
+}
+h5 {
+  font-size: 20px;
+  line-height: 30px;
+}
+h6 {
+  font-size: 14px;
+  line-height: 22.5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+code {
+  border-bottom: 1px solid #e3e3e3;
+  background-color: #f0f0f0;
+  color: #606362;
+  -webkit-border-radius: 2px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 2px;
+  -moz-background-clip: padding;
+  border-radius: 2px;
+  background-clip: padding-box;
+}
+pre {
+  border-bottom: 1px solid #e3e3e3;
+  background-color: #f0f0f0;
+  color: #606362;
+  font-size: 12px;
+  padding: 10px;
+  -webkit-border-radius: 2px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 2px;
+  -moz-background-clip: padding;
+  border-radius: 2px;
+  background-clip: padding-box;
+}
+ul {
+  list-style-position: inside;
+}
+
+i, cite, em, var, address, dfn {
+  font-style: normal;
+}
+
+.btn {
+  background: #009900;
+  color: #ffffff !important;
+  border-radius: 3px;
+  border-color: #ffffff;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 800;
+  padding: 10px 25px;
+}
+
+.btn:hover {
+  background-color: #020202;
+  color: #fdfdfd !important;
+}
